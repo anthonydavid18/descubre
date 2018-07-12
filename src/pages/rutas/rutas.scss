@@ -1,0 +1,46 @@
+page-rutas {
+.scroll-content{
+	background: #000 !important;
+	opacity: 1;
+}	
+    p{
+		color: white !important;
+		font-size: 2rem !important;
+		font-weight:bold !important;
+	}
+	.card-background-page {
+		ion-card {
+			position: relative;
+			text-align: center;
+		}
+		
+.card-title {
+			position: absolute;
+			font-size: 1.5em;
+			width: 100%;
+			font-weight: bold;
+			color: #fff;
+			height: 100%;
+			top:0%;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+		}
+		.cuadro-azul {
+			position: absolute;
+			font-size: 1.5em;
+			width: 100%;
+			background:rgba(23, 3, 130, 0.6);
+			height: 100%;
+			top:0%;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+		}
+		.card-md{
+			width: 100%;
+			margin: 0;
+			margin-bottom: 5px;
+		}
+	}
+}

@@ -1,0 +1,251 @@
+<!--
+  Generated template for the DetalleslugarPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+	<ion-navbar>
+		<button ion-button menuToggle>
+			<ion-icon name="menu"></ion-icon>
+		</button>
+		<ion-title>Menú</ion-title>
+	</ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+	<ion-grid>
+		<ion-row>
+			<div *ngIf="nombre=='HUANCHACO'" style="justify-content: center; display: flex; align-items: center; background: url('assets/imgs/fondoprincipal.jpg') center; background-size:100% 100%; height: 300px; width: 100%;">
+				<h3 class="colorChan">{{nombre}}</h3>
+			</div>
+			<div *ngIf="nombre=='CENTRO HISTÓRICO'" style="justify-content: center; display: flex; align-items: center; background: url('assets/imgs/estatuacentrohistorico.jpg') center; background-size:100% 100%; height: 300px; width: 100%;">
+				<h3 class="colorChan">{{nombre}}</h3>
+			</div>
+			<div *ngIf="nombre=='CHAN CHAN'" style="justify-content: center; display: flex; align-items: center; background: url('assets/imgs/chanchan.jpg') center; background-size:100% 100%; height: 300px; width: 100%;">
+				<h3 class="colorChan">{{nombre}}</h3>
+			</div>
+			<div *ngIf="nombre=='HUACA DEL SOL'" style="justify-content: center; display: flex; align-items: center; background: url('assets/imgs/huacadelsol.jpg') center; background-size:100% 100%; height: 300px; width: 100%;">
+				<h3 class="colorChan">{{nombre}}</h3>
+			</div>
+			<div *ngIf="nombre=='COMPLEJO ARQUEÓLOGICO EL BRUJO'" style="justify-content: center; display: flex; align-items: center; background: url('assets/imgs/brujo/1.jpg') center; background-size:100%; height: 300px; width: 100%;">
+				<h3 class="colorChan">{{nombre}}</h3>
+			</div>
+			<div *ngIf="nombre=='CABALLITOS DE TOTORA'" style="justify-content: center; display: flex; align-items: center; background: url('assets/imgs/totora/1.jpg') center; background-size:100%; height: 300px; width: 100%;">
+				<h3 class="colorChan">{{nombre}}</h3>
+			</div>
+
+			<div style="background: #000;">
+				<div *ngIf="nombre=='HUANCHACO'">
+					<p padding style="text-align: center; font-size: 1rem;">{{nombre}},<br>está rodeada de Historia e impresionantes olas,Huanchaco enamora a más de uno por su maravillos mar y exquisita gastronomía,considerada una tradición milenaria por el uso de mariscos,pescados y algas marinas consumidas desde tiempos remotos por sus antepasados.
+						<br>Este balneario es uno de los más importantes de la capital de La Libertad y está ubicado al noreste de la capital de Trujillo.</p>	
+				</div>
+				<div *ngIf="nombre=='CENTRO HISTÓRICO'">
+					<p padding style="text-align: center; font-size: 1rem;">{{nombre}},<br>también llamado centro monumental es la zona urbana principal y el centro más importante del desarrollo y desenvolvimiento de la ciudad peruana de Trujillo en el departamento de La Libertad.<br><br> El conjunto de vías de su trama urbana inicial se encuentra circulando de forma elíptica por la av. España,la cual fue construida sobre el trazo de la antigua Muralla de Trujillo.
+					En la parte central de esta área urbana se encuentra la plaza de armas donde se produjo la fundación española en 1534 y también la proclamación de la Independencia de Trujillo el 29 de diciembre de 1820. </p>	
+				</div>
+				<div *ngIf="nombre=='CHAN CHAN'">
+					<p padding style="text-align: center; font-size: 1rem;">{{nombre}},<br>es una ciudad precolombina de adobe, construida en la casa norte del Perú por los chimúes.Es la ciudad construida en adobe más de América y la segunda en el mundo.Se ubica al noreste del área metropolitana de Trujillo.Fue declarada Patrimonio Cultural de la Humanidad por la UNESCO en 1986.<br><br>
+					Chan Chan está formada por 9 pequeñas ciudades amuralladas.Todo el conjunto fue la capital del reino Chimor,organización estatal de la cultura Chimú. </p>	
+				</div>
+				<div *ngIf="nombre=='HUACA DEL SOL'">
+					<p padding style="text-align: center; font-size: 1rem;">{{nombre}},<br>es un complejo arqueológico ubicado en la costa norte del Perú.Considerado como un santuario moche,constituido por un conjunto de monumentos situados a unos 5km. al sur de Trujillo, en el distrito de Moche.<br><br>
+					Este sitio arqueológico representó físicamente la capital de la cultura mochica desde el siglo 1 a.C. hasta el siglo IX</p>	
+				</div>
+				<div *ngIf="nombre=='COMPLEJO ARQUEÓLOGICO EL BRUJO'">
+					<p padding style="text-align: center; font-size: 1rem;">{{nombre}},<br>es uno de los complejos arqueológicos más importantes y antiguos de la costa norte del Perú.Está conformado principalmente por la Huaca Prieta, la Huaca Cao Viejo y la Huaca cortada.<br><br>
+					Está ubicado en el valle del rio Chicama, en el distrito de Magdalena de Cao, provincia de Ascope,departamento de La Libertad a unos 60km. al norte de la ciudad de Trujillo.En este complejo se encontró la tumba y e cuerpo momificado de la gobernante moche llamada la Señora de Cao.</p>	
+				</div>
+				<div *ngIf="nombre=='CABALLITOS DE TOTORA'">
+					<p padding style="text-align: center; font-size: 1rem;">{{nombre}},<br>es un tipo de embarcación construida desde 1000 a 3000 a.C con tallos y hojas de totora(Scirpus Californicus).Está diseñado para transportar a un navegante con sus aparejos,durante las faenas de pesca marina en el Perú, y lacustre en Bolivia y Perú.</p>	
+				</div>
+
+				<ion-grid>
+					<ion-row>
+						<ion-col col-4 style="text-align: center;">
+							<ion-icon ios="ios-pin" md="md-pin" style="font-size: 3rem; color: white;"></ion-icon>
+							<p>Ubicación</p>
+							<p>{{ubicacion}}</p>	
+						</ion-col>
+						<ion-col col-4 style="text-align: center;">
+							<ion-icon ios="ios-time" md="md-time" style="font-size: 3rem; color: white;"></ion-icon>
+							<p>Horario</p>
+							<p>{{Temporada}}</p>
+						</ion-col>
+						<ion-col col-4 style="text-align: center;">
+							<ion-icon ios="ios-bus" md="md-bus" style="font-size: 3rem; color: white;"></ion-icon>
+							<p>Via de Acceso</p>
+							<p>{{Accesoviaterrestre}}</p>
+						</ion-col>
+					</ion-row>
+				</ion-grid>
+				
+			</div>
+
+			<ion-col col-12>
+				<div *ngIf="nombre=='HUANCHACO'">
+					<ion-slides loop="true" speed="500" class="slides" pager="true">
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/huanchaco/1.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/huanchaco/2.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/huanchaco/3.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/huanchaco/4.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/huanchaco/5.jpg" alt="">
+						</ion-slide>
+					</ion-slides>
+				</div>
+				<div *ngIf="nombre=='CENTRO HISTÓRICO'">
+					<ion-slides loop="true" speed="500" class="slides" pager="true">
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/centro/1.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/centro/2.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/centro/3.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/centro/4.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/centro/5.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/centro/6.jpg" alt="">
+						</ion-slide>
+					</ion-slides>
+				</div>
+				<div *ngIf="nombre=='CHAN CHAN'">
+					<ion-slides  loop="true" speed="500" class="slides" pager="true">
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/chan/1.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/chan/2.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/chan/3.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/chan/4.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/chan/5.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/chan/6.jpg" alt="">
+						</ion-slide>
+					</ion-slides>
+				</div>
+				<div *ngIf="nombre=='HUACA DEL SOL'">
+					<ion-slides  loop="true" speed="500" class="slides" pager="true">
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/huaca/1.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/huaca/2.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/huaca/3.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/huaca/4.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/huaca/5.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/huaca/6.jpg" alt="">
+						</ion-slide>
+					</ion-slides>
+				</div>
+
+				<div *ngIf="nombre=='COMPLEJO ARQUEÓLOGICO EL BRUJO'">
+					<ion-slides  loop="true" speed="500" class="slides" pager="true">
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/brujo/1.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/brujo/2.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/brujo/3.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/brujo/4.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/brujo/5.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/brujo/6.jpg" alt="">
+						</ion-slide>
+					</ion-slides>
+				</div>
+
+				<div *ngIf="nombre=='CABALLITOS DE TOTORA'">
+					<ion-slides loop="true" speed="500" class="slides" pager="true">
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/totora/1.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/totora/2.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/totora/3.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/totora/4.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/totora/5.jpg" alt="">
+						</ion-slide>
+						<ion-slide>
+							<img width="100%" height="300" src="assets/imgs/totora/6.jpg" alt="">
+						</ion-slide>
+					</ion-slides>
+				</div>
+
+			</ion-col>
+
+			<ion-col col-12 style="text-align: center;">
+				<div *ngIf="nombre=='HUANCHACO'">
+					<h3 class="colorChan">{{nombre}}</h3>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15800.682052017954!2d-79.11760222208022!3d-8.084086563667384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3bf7f8771e73%3A0xb5d9f2e453ecc75d!2sHuanchaco!5e0!3m2!1ses-419!2spe!4v1530196536824" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div *ngIf="nombre=='HUACA DEL SOL'">
+					<h3 class="colorChan">{{nombre}}</h3>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.6913859619426!2d-78.99448509347327!3d-8.132867953344668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad17be9b38b059%3A0xbfa558ea897165e3!2sLa+Huaca+de+la+Luna!5e0!3m2!1ses-419!2spe!4v1530196855357" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div *ngIf="nombre=='CHAN CHAN'">
+					<h3  class="colorChan">{{nombre}}</h3>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.9600870829854!2d-79.07680148578626!3d-8.105546583329259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3c5aac618ac5%3A0xcb9b94821b72a829!2sRuinas+de+Chan-Chan!5e0!3m2!1ses-419!2spe!4v1530196933046" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div *ngIf="nombre=='CENTRO HISTÓRICO'">
+					<h3 class="colorChan">{{nombre}}</h3>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7899.816218199823!2d-79.03159582803443!3d-8.110838805097146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3d8387a91d09%3A0xbfeb703329913196!2sCentro+Historico%2C+Trujillo+13001!5e0!3m2!1ses-419!2spe!4v1530196993870" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div *ngIf="nombre=='COMPLEJO ARQUEÓLOGICO EL BRUJO'">
+					<h3 class="colorChan">{{nombre}}</h3>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.806754987563!2d-79.30789958578842!3d-7.915244780979822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad4bf17dd94a83%3A0xe3d1e1c1f7e7e1a3!2sComplejo+Arqueol%C3%B3gico+El+Brujo!5e0!3m2!1ses-419!2spe!4v1530196726448" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div *ngIf="nombre=='CABALLITOS DE TOTORA'">
+					<h3 class="colorChan">{{nombre}}</h3>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15800.682052017954!2d-79.11760222208022!3d-8.084086563667384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3bf7f8771e73%3A0xb5d9f2e453ecc75d!2sHuanchaco!5e0!3m2!1ses-419!2spe!4v1530196536824" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</ion-col>
+		</ion-row>
+	</ion-grid>
+</ion-content>

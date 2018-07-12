@@ -1,0 +1,42 @@
+page-lugares {
+	p{
+		color: white !important;
+		font-weight:bold !important;
+		margin: 0px 0 5px !important;
+	}
+	.boton{
+		background: rgb(147,189,1);border-radius: 20px;
+	}
+	.tarjetas{
+		margin: 0; padding:0; width: 100%; color: white;
+	}
+	.tarjeta-verde{
+		margin: 0; padding:0; width: 100%; background: rgb(93,110,30); opacity: .7; color: white;
+	}
+	.card-md{
+		width: 100%;
+		margin: 0;
+		margin-bottom: 5px;
+	}
+	.scroll-content{
+		background-color:#000 !important;
+		opacity: 1;
+	}
+
+
+	.card-background-page {
+		ion-card {
+			position: relative;
+			text-align: center;
+		}
+
+		.card-title {
+			position: absolute;
+			top: 36%;
+			font-size: 1.5em;
+			width: 100%;
+			font-weight: bold;
+			color: #fff;
+		}
+	}
+}
