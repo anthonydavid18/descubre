@@ -1,6 +1,6 @@
 {
   "name": "descubre",
-  "version": "0.0.1",
+  "version": "0.0.8",
   "author": "Avi Creative",
   "homepage": "https://avicreative.com",
   "private": true,
@@ -42,7 +42,7 @@
     "@ionic/app-scripts": "3.1.10",
     "typescript": "~2.6.2"
   },
-  "description": "Descubre,guía turística",
+  "description": "Descubre,tu guía turística",
   "cordova": {
     "plugins": {
       "cordova-plugin-whitelist": {},

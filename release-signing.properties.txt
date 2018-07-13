@@ -1,0 +1,4 @@
+key.store=descubre.keystore
+key.store.password=descubre
+key.alias=descubre
+key.alias.password=descubre

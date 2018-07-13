@@ -1,0 +1,4 @@
+key.store=160996.keystore
+key.store.password=160996
+key.alias=160996
+key.alias.password=160996
