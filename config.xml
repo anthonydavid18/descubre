@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="michael.ITN.starter" version="0.0.9" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="Descubre.Trujillo" version="0.0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Descubre</name>
     <description>Tu guía Turística</description>
     <author email="" href="">Michael Valdiviezo</author>
@@ -13,7 +13,7 @@
     <allow-intent href="geo:*" />
     <preference name="ScrollEnabled" value="false" />
     <preference name="android-minSdkVersion" value="16" />
-    <preference name="android:targetSdkVersion" value="23" />
+    <preference name="android:targetSdkVersion" value="24" />
     <preference name="android-maxSdkVersion" value="26" />
     <preference name="BackupWebStorage" value="none" />
     <preference name="SplashMaintainAspectRatio" value="true" />
